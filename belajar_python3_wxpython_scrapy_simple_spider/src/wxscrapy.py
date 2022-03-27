@@ -19,14 +19,14 @@ class MySimpleSpider(scrapy.Spider):
 class MyFrame(wxsf.WXSPFrame):
     def __init__(self):
         wxsf.WXSPFrame.__init__ (self,None)
-        self.Bind(wx.EVT_BUTTON, self.OnButtonClicked)
+        self.Bind(wx.EVT_BUTTON, self.OnButtonClick)
         global response_rich_text_control
         response_rich_text_control = self.m_richText1
 
     def __del__( self ):
         pass
 
-    def OnButtonClicked(self, e):
+    def OnButtonClick(self, e):
         print("CLICKED!")
         process = CrawlerProcess({
             "USER_AGENT": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.88 Safari/537.36"
