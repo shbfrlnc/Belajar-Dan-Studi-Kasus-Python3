@@ -1,4 +1,4 @@
 # Belajar-Dan-Studi-Kasus-Python3
-Kumpulan contoh kode Python 3.
+Ini adalah kumpulan contoh kode Python 3.
 
-Ada baiknya jika Anda membaca README.md pada subfoldernya jika tersedia, karena saya menggunakannya juga untuk blogging.
+Sebaiknya Anda juga membaca README.md dari masing-masing folder jika ada, karena saya menggunakan repository ini untuk blogging juga.
