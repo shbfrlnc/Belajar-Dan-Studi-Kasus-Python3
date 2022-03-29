@@ -13,7 +13,7 @@ class MySimpleSpider(scrapy.Spider):
     def parse(self, response):
         print(response.url)
         global response_rich_text_control
-        if response_rich_text_control:
+        if response_rich_text_control is not None:
             response_rich_text_control.SetValue(response.url)
 
 class MyFrame(wxsf.WXSPFrame):
