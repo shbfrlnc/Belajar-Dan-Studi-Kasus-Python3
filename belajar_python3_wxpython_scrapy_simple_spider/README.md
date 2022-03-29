@@ -133,7 +133,6 @@ class MySimpleSpider(scrapy.Spider):
 
     def parse(self, response): # ketika di-parse
         print(response.url) # print response url di console/terminal
-        global response_rich_text_control # tandai global, sehingga bisa dimodifikasi di sini
         if response_rich_text_control:
         	# inilah maksud utama saya, mengisi value rich text control dengan data dari scrapy
             response_rich_text_control.SetValue(response.url)
