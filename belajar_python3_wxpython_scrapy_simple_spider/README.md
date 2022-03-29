@@ -1,7 +1,5 @@
 # Belajar Python3 wxPython Scrapy Simple Spider
 
-Tujuan dibuatnya source code ini adalah untuk mempelajari cara mem-passing data dari scrapy ke wxPython, dalam hal ini ke rich text control nya.
-
 ## Cara Mencoba Kode Ini
 
 ### Untuk Menjalankannya
@@ -48,6 +46,8 @@ pyinstaller src/wxscrapy.py
 Hanya telah diuji di Windows 10.
 
 ## Pendahuluan
+
+Tujuan dibuatnya source code ini adalah untuk mempelajari cara mem-passing data dari scrapy ke wxPython, dalam hal ini ke rich text control nya.
 
 Python 3 adalah salah satu bahasa pemrograman yang bisa digunakan untuk banyak hal.
 
@@ -168,8 +168,12 @@ app.MainLoop()
 
 Agar bisa memahami kedua script di atas, silakan baca komentarnya baik-baik, lalu coba di komputer Anda.
 
-## Traktir
+## Info Tambahan
 
-Traktir saya di sini:
+Traktir Saya:
 
 https://sociabuzz.com/lsfkrshb/tribe
+
+Channel YouTube Saya:
+
+https://www.youtube.com/c/shbfrlnc

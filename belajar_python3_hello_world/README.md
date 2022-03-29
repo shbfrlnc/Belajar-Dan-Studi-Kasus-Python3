@@ -22,8 +22,12 @@ Akan dijalankan.
 
 Perlu diketahui juga bahwa program ini hanya baru teruji di Windows 10.
 
-## Traktir
+## Info Tambahan
 
-Traktir saya di sini:
+Traktir Saya:
 
 https://sociabuzz.com/lsfkrshb/tribe
+
+Channel YouTube Saya:
+
+https://www.youtube.com/c/shbfrlnc
