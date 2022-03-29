@@ -169,3 +169,8 @@ app.MainLoop()
 
 Agar bisa memahami kedua script di atas, silakan baca komentarnya baik-baik, lalu coba di komputer Anda.
 
+## Traktir
+
+Traktir saya di sini:
+
+https://sociabuzz.com/lsfkrshb/tribe

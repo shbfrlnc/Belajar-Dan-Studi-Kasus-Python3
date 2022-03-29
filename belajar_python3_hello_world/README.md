@@ -1,5 +1,7 @@
 # Belajar Python3 Hello World
 
+## Cara Mencoba Kode Ini
+
 Untuk menampilkan teks "Hello World" di Python 3.9, pastikan Anda telah menginstallnya terlebih dahulu.
 
 Selanjutnya, download folder ini dan masuk ke dalamnya melalui terminal.
@@ -19,3 +21,9 @@ print("Hello World")
 Akan dijalankan.
 
 Perlu diketahui juga bahwa program ini hanya baru teruji di Windows 10.
+
+## Traktir
+
+Traktir saya di sini:
+
+https://sociabuzz.com/lsfkrshb/tribe
