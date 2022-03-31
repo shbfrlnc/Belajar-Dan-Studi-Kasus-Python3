@@ -128,7 +128,7 @@ response_rich_text_control = None
 # simple spider dengan scrapy
 class MySimpleSpider(scrapy.Spider):
     name = "mysimplespider"
-    start_urls = ['https://shbfrlnc.github.io/'] # start url ke website saya
+    start_urls = ['https://quotes.toscrape.com'] # start url ke website saya
 
     def parse(self, response): # ketika di-parse
         print(response.url) # print response url di console/terminal
