@@ -86,28 +86,27 @@ import wx.richtext
 
 class WXSPFrame ( wx.Frame ):
 
-	def __init__( self, parent ):
-		wx.Frame.__init__ ( self, parent, id = wx.ID_ANY, title = wx.EmptyString, pos = wx.DefaultPosition, size = wx.Size( 500,300 ), style = wx.DEFAULT_FRAME_STYLE|wx.TAB_TRAVERSAL )
+    def __init__( self, parent ):
+        wx.Frame.__init__ ( self, parent, id = wx.ID_ANY, title = wx.EmptyString, pos = wx.DefaultPosition, size = wx.Size( 500,300 ), style = wx.DEFAULT_FRAME_STYLE|wx.TAB_TRAVERSAL )
 
-		self.SetSizeHints( wx.DefaultSize, wx.DefaultSize )
+        self.SetSizeHints( wx.DefaultSize, wx.DefaultSize )
 
-		bSizer1 = wx.BoxSizer( wx.VERTICAL )
+        bSizer1 = wx.BoxSizer( wx.VERTICAL )
 
-		self.m_button1 = wx.Button( self, wx.ID_ANY, u"Scrape", wx.DefaultPosition, wx.Size( -1,-1 ), 0 )
-		bSizer1.Add( self.m_button1, 0, wx.ALL|wx.EXPAND, 5 )
+        self.m_button1 = wx.Button( self, wx.ID_ANY, u"Scrape", wx.DefaultPosition, wx.Size( -1,-1 ), 0 )
+        bSizer1.Add( self.m_button1, 0, wx.ALL|wx.EXPAND, 5 )
 
-		self.m_richText1 = wx.richtext.RichTextCtrl( self, wx.ID_ANY, u"Ini adalah aplikasi untuk mencoba wxPython dan Scrapy", wx.DefaultPosition, wx.DefaultSize, 0|wx.VSCROLL|wx.HSCROLL|wx.NO_BORDER|wx.WANTS_CHARS )
-		bSizer1.Add( self.m_richText1, 1, wx.EXPAND |wx.ALL, 5 )
+        self.m_richText1 = wx.richtext.RichTextCtrl( self, wx.ID_ANY, u"Ini adalah aplikasi untuk mencoba wxPython dan Scrapy", wx.DefaultPosition, wx.DefaultSize, 0|wx.VSCROLL|wx.HSCROLL|wx.NO_BORDER|wx.WANTS_CHARS )
+        bSizer1.Add( self.m_richText1, 1, wx.EXPAND |wx.ALL, 5 )
 
 
-		self.SetSizer( bSizer1 )
-		self.Layout()
+        self.SetSizer( bSizer1 )
+        self.Layout()
 
-		self.Centre( wx.BOTH )
+        self.Centre( wx.BOTH )
 
-	def __del__( self ):
-		pass
-
+    def __del__( self ):
+        pass
 ```
 
 Nantinya, script tersebut digunakan di  "src/wxscrapy.py".
@@ -134,7 +133,7 @@ class MySimpleSpider(scrapy.Spider):
     def parse(self, response): # ketika di-parse
         print(response.url) # print response url di console/terminal
         if response_rich_text_control:
-        	# inilah maksud utama saya, mengisi value rich text control dengan data dari scrapy
+            # inilah maksud utama saya, mengisi value rich text control dengan data dari scrapy
             response_rich_text_control.SetValue(response.url)
 
 # di sini, saya extend MyFrame dari frame yang di-generate via wxFormBuilder
@@ -150,7 +149,7 @@ class MyFrame(wxsf.WXSPFrame):
 
     def OnButtonClick(self, e):
         print("CLICKED!")
-        
+
         # ini adalah cara agar scrapy bisa di-run via kode Python 3
         process = CrawlerProcess({
             "USER_AGENT": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.88 Safari/537.36"

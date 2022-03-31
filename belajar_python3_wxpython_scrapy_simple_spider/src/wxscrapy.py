@@ -8,7 +8,7 @@ response_rich_text_control = None
 
 class MySimpleSpider(scrapy.Spider):
     name = "mysimplespider"
-    start_urls = ['https://shbfrlnc.github.io/']
+    start_urls = ['https://quotes.toscrape.com']
 
     def parse(self, response):
         print(response.url)
