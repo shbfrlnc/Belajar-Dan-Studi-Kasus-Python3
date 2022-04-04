@@ -167,12 +167,4 @@ app.MainLoop()
 
 Agar bisa memahami kedua script di atas, silakan baca komentarnya baik-baik, lalu coba di komputer Anda.
 
-## Info Tambahan
-
-Traktir Saya:
-
-https://sociabuzz.com/lsfkrshb/tribe
-
-Channel YouTube Saya:
-
-https://www.youtube.com/c/SHBFRLNC
+# 

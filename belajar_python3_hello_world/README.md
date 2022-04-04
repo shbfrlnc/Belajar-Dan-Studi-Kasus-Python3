@@ -22,12 +22,4 @@ Akan dijalankan.
 
 Perlu diketahui juga bahwa program ini hanya baru teruji di Windows 10.
 
-## Info Tambahan
-
-Traktir Saya:
-
-https://sociabuzz.com/lsfkrshb/tribe
-
-Channel YouTube Saya:
-
-https://www.youtube.com/c/SHBFRLNC
+# 
