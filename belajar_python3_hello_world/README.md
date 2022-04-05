@@ -20,6 +20,8 @@ print("Hello World")
 
 Akan dijalankan.
 
-Perlu diketahui juga bahwa program ini hanya baru teruji di Windows 10.
+## Penjelasan
 
-# 
+Fungsi print adalah salah satu fungsi dalam Python 3 untuk mem-print teks ke layar console.
+
+Fungsi ini banyak gunanya. Selain untuk memberi info pada pengguna, fungsi ini juga bisa digunakan dalam debugging.

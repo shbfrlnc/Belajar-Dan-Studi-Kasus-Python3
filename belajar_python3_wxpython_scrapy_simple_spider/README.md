@@ -4,24 +4,11 @@
 
 ### Untuk Menjalankannya
 
-Pertama, pastikan Python 3.9 sudah terinstall di OS Anda.
+Pertama, pastikan Python 3.8 sudah terinstall di OS Anda.
 
 Download folder ini.
 
-Kemudian buka foldernya dengan perintah:
-
-```
-cd belajar_python3_wxpython_scrapy_simple_spider
-```
-
-Kemudian jalankan:
-
-```
-python -m venv ./venv
-./venv/Scripts/activate
-```
-
-Lalu install requirements.txt:
+Lalu install:
 
 ```
 pip install -r requirements.txt 
@@ -30,20 +17,8 @@ pip install -r requirements.txt
 Selanjutnya, Anda bisa langsung coba:
 
 ```
-python src/wxscrapy.py
+python wxscrapy.py
 ```
-
-### Untuk Membuild Jadi Executable
-
-Jalankan:
-
-```
-pyinstaller src/wxscrapy.py
-```
-
-### Catatan Untuk Kode Ini
-
-Hanya telah diuji di Windows 10.
 
 ## Pendahuluan
 
@@ -51,19 +26,13 @@ Tujuan dibuatnya source code ini adalah untuk mempelajari cara mem-passing data 
 
 Python 3 adalah salah satu bahasa pemrograman yang bisa digunakan untuk banyak hal.
 
-Hanya saja, fokus kita kali ini adalah untuk digunakan sebagai kode aplikasi dekstop, terutama Windows 10.
-
-Kenapa di sini ada wxPython dan Scrapy?
-
-Alasannya sederhana, saya ingin memastikan bahwa kedua modul tersebut bisa dibuild menjadi executable dengan menggunakan Pyinstaller.
-
-Jika berhasil tanpa masalah, maka Python 3 punya potensi untuk digunakan dalam aplikasi web scraping.
+Hanya saja, fokus kita kali ini adalah untuk digunakan sebagai kode aplikasi dekstop.
 
 ## Penjelasan
 
-Di sini, saya meng-generate GUI, dalam hal ini form-nya dengan wxFormBuilder.
+Di sini, saya meng-generate GUI, dalam hal ini form-nya dengan [wxFormBuilder](https://github.com/wxFormBuilder/wxFormBuilder).
 
-Dengan aplikasi tersebut, saya meng-generate file "src/wxscrapy_form.py".
+Dengan aplikasi tersebut, saya meng-generate file "wxscrapy_form.py".
 
 ```
 # file: wxscrapy_form.py
@@ -109,7 +78,7 @@ class WXSPFrame ( wx.Frame ):
         pass
 ```
 
-Nantinya, script tersebut digunakan di  "src/wxscrapy.py".
+Nantinya, script tersebut digunakan di  "wxscrapy.py".
 
 ```
 # file: wxscrapy.py
@@ -166,5 +135,3 @@ app.MainLoop()
 ```
 
 Agar bisa memahami kedua script di atas, silakan baca komentarnya baik-baik, lalu coba di komputer Anda.
-
-# 
