@@ -9,7 +9,7 @@ Download folder ini.
 Selanjutnya, Anda bisa langsung coba:
 
 ```
-python contoh_urllib.py
+python contoh_modul_urllib.py
 ```
 
 ## Pendahuluan
