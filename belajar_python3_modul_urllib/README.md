@@ -1,4 +1,4 @@
-# Belajar Python3 wxPython Scrapy Simple Spider
+# Belajar Python3 Modul urllib
 
 ## Cara Mencoba Kode Ini
 
