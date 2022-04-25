@@ -26,8 +26,8 @@ Berikut ini daftar artikelnya:
 
 - [Belajar Python 3 wxPython Scrapy Simple Spider](https://github.com/shbfrlnc/Belajar-Dan-Studi-Kasus-Python3/tree/main/belajar_python3_wxpython_scrapy_simple_spider)
 
-## Info Tambahan
+## More Info
 
-Traktir Saya, Channel YouTube Saya, dan lain-lain:
+Support me, my youtube channel, etc:
 
-- https://sociabuzz.com/lsfkrshb
+- https://shbfrlnc.github.io
