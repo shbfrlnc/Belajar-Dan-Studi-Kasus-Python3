@@ -28,6 +28,6 @@ Berikut ini daftar artikelnya:
 
 ## Info Lebih Lanjut
 
-SERVICES / WEBSITE / YOUTUBE / TWITTER:
+JASA FREELANCE:
 
 - https://shbfrlnc.github.io
