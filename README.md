@@ -25,9 +25,3 @@ Berikut ini daftar artikelnya:
 - [Belajar Python 3 Threading](https://github.com/shbfrlnc/Belajar-Dan-Studi-Kasus-Python3/tree/main/belajar_python3_threading)
 
 - [Belajar Python 3 wxPython Scrapy Simple Spider](https://github.com/shbfrlnc/Belajar-Dan-Studi-Kasus-Python3/tree/main/belajar_python3_wxpython_scrapy_simple_spider)
-
-## Info Lebih Lanjut
-
-WEBSITE:
-
-- https://shbfrlnc.github.io
